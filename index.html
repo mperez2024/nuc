@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		 <!--D. R.-C.--> 
+  <script>
+    document.addEventListener('contextmenu', event => event.preventDefault());
+    </script>
+  <!--D. R.-C.-->
+    <!-- Disable CTRL U -->
+		<script>
+			/*function check(e)
+			{
+			alert(e.keyCode);
+			}*/
+			document.onkeydown = function(e) {
+					if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+						alert('Page protected By: MPérez');
+					}
+					return false;
+			};
+			</script>
+<!-- Disable CTRL U -->
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta charset="utf-8">
+    <title>MPérez | NUC | Tareas</title>
+    <meta name="description" content="Zion">
+    <meta name="author" content="MPerez">
+    <meta name="description" content="">
+	
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/animate.min.css" rel="stylesheet" >	
+	<link href="css/font-awesome.min.css" rel="stylesheet">	
+	<link href="css/prettyPhoto.css" rel="stylesheet">
+	
+	<link href="css/theme.css" rel="stylesheet">	
+	<link href="css/responsive.css" rel="stylesheet">
+	<link href="css/colors/blue.css" rel="stylesheet" class="colors">
+
+
+	<!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+    
+	<!-- Favicons -->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">	
+    <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
+
+</head>
+
+<body data-spy="scroll" data-target="#mynav" data-offset="85">
+
+<!-- Preloader --> 
+<div id="preloader">
+	<div id="status">
+		<div class="spinner">
+			  <div class="rect1"></div>
+			  <div class="rect2"></div>
+			  <div class="rect3"></div>
+			  <div class="rect4"></div>
+			  <div class="rect5"></div>
+		</div>
+	</div>
+</div>
+<!-- End Preloader -->
+
+<header>
+
+<!-- Bootstrap Menu -->
+<div id="navigation">
+	<div class="navbar-wrapper">
+		<nav class="navbar-inverse navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#"></a>
+					</div>
+					<div id="mynav" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav main-nav-list">
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">Tareas</a></li>
+															
+						</ul>
+					</div>		
+				</div>
+			</div>
+		</nav>
+	</div>
+</div>
+<!-- End Bootstrap Menu -->
+
+<!-- Slider -->
+<section id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+			<div class="item active" style="background-image: url(images/slider/bg-1.jpg)"> <!-- Change Image -->
+				<div class="caption">
+					<h1 class="animated fadeInLeftBig"><!-- Welcome to <strong>ZION</strong>--></h1>
+					<p class="animated fadeInRightBig">Miguel E. Perez Velazquez</p>
+					<!-- <a data-scroll class="learn-more animated fadeInUpBig" href="#about">Tareas</a>-->
+				</div>
+			</div>
+			<div class="item" style="background-image: url(images/slider/bg-2.jpg)"> <!-- Change Image -->
+				<div class="caption">
+					<h1 class="animated fadeInLeftBig"><strong>NUC</strong> Tareas</h1>
+					<p class="animated fadeInRightBig">Cibersecurity</p>
+					<a data-scroll class="learn-more animated fadeInUpBig" href="#about">Tareas</a>
+				</div>
+			</div>
+			<div class="item" style="background-image: url(images/slider/bg-3.jpg)"> <!-- Change Image -->
+				<div class="caption">
+					<h1 class="animated fadeInLeftBig">Ciber<strong>security</strong></h1>
+					<p class="animated fadeInRightBig">Ready to Start</p>
+					<a data-scroll class="learn-more animated fadeInUpBig" href="#about">Tareas</a>
+				</div>
+			</div>
+        </div>
+        <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+        <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+    </div>	
+</section>
+<!-- End Slider -->
+
+</header>
+	
+<!-- Tablas -->
+<section class="section-wrapper" id="about">
+	<div class="about-us">
+		<div class="why-us">	  
+			<div class="container">	  
+				<div class="row">
+					<!-- Block Title -->
+					<style>
+table, th, td {
+  border:1px solid #00cfef;
+}
+</style>
+<body>
+
+<h2>INTE 2470L-3360ONL - User Support Technician and Laboratory</h2>
+<h2>Profesor: Jose Hernandez Ortiz</h2>
+
+<table style="width:100%">
+  <tr>
+    <td>Tarea</td>
+    <td>Uso de la herramienta Quick Assist en Windows 10 y 11</td>
+   
+  </tr>
+  <tr>
+    <td>3.1</td>
+    <td><a href="images/vid/vid1.mp4"target="_blank">Video</a></td>
+    
+  </tr>
+</table><br>
+
+<p>Grado Asociado en Ciberseguridad 2025.</p>
+
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Tablas -->
+
+
+	
+	
+		
+		</div>
+	</div>
+	<!-- End Contacts -->	
+	
+</section> 
+<!-- End Contact Section -->		
+	
+
+		<div class="element-title">			
+			<div class="row">	 		
+				<div class="container">
+					<div class="section-title wow fadeInDown" data-wow-duration="1s" data-wow-delay="300ms">			
+						<h1><span>Contacto</span></h1>							
+					</div>				
+					<h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="300ms">Contact <span class="main-color">Miguel E. P&eacute;rez Vel&aacute;zquez </span> to ask or Clarify any doubts</h3>	
+				</div>
+			</div>
+		</div>
+		<!-- End Block Title -->	
+	
+		<div class="container">
+			<div class="row">	
+				<div class="wrapper-contacts">		
+					<div class="contact_form">
+						<div class="row">
+							<div class="wrapper-contacts-icons">	
+								<div class="col-xs-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="300ms">	
+									<i class="fa fa-map-marker"></i>
+									<div class="">Condominio Colina Real</div>
+									<div class="">Rio Piedras PR. 00926</div>
+								</div>								
+								<div class="col-xs-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="450ms">	
+									<i class="fa fa-mobile-phone"></i>
+									<div class="">Mon - Fri 08:00am 6:00pm</div>
+									<div class="">(939) 220-1491</div>
+								</div>
+								<div class="col-xs-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="600ms">	
+									<i class="fa fa-envelope-o"></i>
+									<div class="">Feel Free to Email Me</div>
+									<div class=""><a href="mailto:mperez0186@stu.nuc.edu">MPérez </a></div><br><br>
+								</div>								
+								
+							</div>								
+						</div>								
+						<div class="row wow fadeInRight" data-wow-duration="1s" data-wow-delay="800ms">
+							<!-- Start contact-form -->	
+							
+							<!-- End contact-form -->
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="bottom-footer-left wow fadeInUp" data-wow-duration="1s" data-wow-delay="450ms">
+			<p><span>&#169; Copyright 2025. Designed by: </span><a href="https://mperez2024.github.io/MPerez/"target="_blank">MP&eacute;rez</a></p>
+		</div>		  
+	</div>
+</div>
+<!-- End Footer -->		
+
+<!-- Scroll to Top  -->
+<a href="#" class="scroll-up"><i class="fa fa-arrow-up"></i></a>
+<!-- End Scroll To Top  -->
+	
+	
+    <!-- MPerez
+    ================================================== -->
+    <!-- MPerez -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/retina.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/wow.min.js"></script>	
+	<script src="js/waypoints.min.js"></script>	
+	<script src="js/jquery.countTo.js"></script>
+	<script src="js/jquery.mixitup.min.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>	
+	<script src="js/jquery.knob.min.js"></script>	
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/custom.js"></script>
+  
+
+</body>
+</html>
